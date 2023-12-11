@@ -6,11 +6,15 @@
 
 Starter Assets - ThirdPerson의 스크립트를 활용하여 3인칭 캐릭터를 구현하였다.
 
+
+
 [블로그 게시글](https://darkgraya9a9a9.tistory.com/2)
 
 ### 2023/12/10
 
 약간의 수정 작업과 함께 게임을 기획하는 시간을 가지게 되었다.
+
+
 
 ### 2023/12/11
 
