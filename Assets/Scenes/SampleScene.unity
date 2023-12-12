@@ -7224,10 +7224,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83363a7a928e0d4983dbd6f56cf53c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 50
+  hp: 25
   xp: 10
   atk: 5
-  rezenTime: 30
+  rezenTime: 10
   hitDelay: 0.5
   attackDelay: 0.1
   hitDelaying: 0
@@ -11232,9 +11232,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 100
-  xp: 25
-  atk: 15
-  rezenTime: 120
+  xp: 50
+  atk: 20
+  rezenTime: 30
   hitDelay: 0.5
   attackDelay: 0.1
   hitDelaying: 0

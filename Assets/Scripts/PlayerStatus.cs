@@ -154,83 +154,103 @@ public class PlayerStatus : MonoBehaviour
             case 1:
                 levelUpXp = 10;
                 maxHp = 100;
+                atk = 5;
                 break;
             case 2:
                 levelUpXp = 15;
                 maxHp = 120;
+                atk = 7;
                 break;
             case 3:
                 levelUpXp = 20;
                 maxHp = 140;
+                atk = 9;
                 break;
             case 4:
                 levelUpXp = 25;
                 maxHp = 160;
+                atk = 11;
                 break;
             case 5:
                 levelUpXp = 30;
                 maxHp = 180;
+                atk = 13;
                 break;
             case 6:
                 levelUpXp = 40;
                 maxHp = 200;
+                atk = 15;
                 break;
             case 7:
                 levelUpXp = 50;
                 maxHp = 220;
+                atk = 17;
                 break;
             case 8:
                 levelUpXp = 60;
                 maxHp = 240;
+                atk = 19;
                 break;
             case 9:
                 levelUpXp = 70;
                 maxHp = 260;
+                atk = 21;
                 break;
             case 10:
                 levelUpXp = 80;
                 maxHp = 280;
+                atk = 23;
                 break;
             case 11:
                 levelUpXp = 100;
                 maxHp = 300;
+                atk = 26;
                 break;
             case 12:
                 levelUpXp = 125;
                 maxHp = 320;
+                atk = 29;
                 break;
             case 13:
                 levelUpXp = 150;
                 maxHp = 340;
+                atk = 32;
                 break;
             case 14:
                 levelUpXp = 175;
                 maxHp = 360;
+                atk = 35;
                 break;
             case 15:
                 levelUpXp = 200;
                 maxHp = 380;
+                atk = 38;
                 break;
             case 16:
                 levelUpXp = 250;
                 maxHp = 400;
+                atk = 41;
                 break;
             case 17:
                 levelUpXp = 300;
                 maxHp = 420;
+                atk = 44;
                 break;
             case 18:
                 levelUpXp = 350;
                 maxHp = 440;
+                atk = 47;
                 break;
             case 19:
                 levelUpXp = 400;
                 maxHp = 470;
+                atk = 50;
                 break;
             case 20:
                 Debug.Log("¸¸·¾ ´Þ¼º!");
                 levelUpXp = 99999;
                 maxHp = 500;
+                atk = 55;
                 break;
         }
     }
