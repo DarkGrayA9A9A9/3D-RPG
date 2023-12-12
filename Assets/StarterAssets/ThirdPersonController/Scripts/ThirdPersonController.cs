@@ -112,7 +112,7 @@ namespace StarterAssets
 
         //
         public Vector2 LookSensitivity;
-        private AudioSource _audioSource;
+        AudioSource _audioSource;
         public AudioClip audioJump;
         public bool talking;
 

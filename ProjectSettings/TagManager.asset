@@ -9,6 +9,7 @@ TagManager:
   - NPC
   - TalkText
   - NameText
+  - Attack
   layers:
   - Default
   - TransparentFX

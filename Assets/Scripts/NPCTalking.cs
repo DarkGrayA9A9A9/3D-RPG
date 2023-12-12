@@ -6,15 +6,15 @@ public class NPCTalking : MonoBehaviour
 {
     public int textNum = 0; // 텍스트 배열의 수
     public int index = 0; // 텍스트 문자열 수
+    public float talkingSpeed; // 대화 속도
     
     public string[] talkText = new string[4]; // 퀘스트 수락 전 대사
-
     public string nameText; // NPC 이름
 
     public bool meetNPC; // 대화 가능 범위 안에 들었는지 여부
     public bool activeTextBox; // 대화창 활성화 여부
     public bool doTalking; // 대사를 치는 중인지에 대한 여부
-    public bool getQuest;
+    public bool getQuest; // 퀘스트 수락 여부
     public int questState; // 퀘스트 상태 0=퀘스트 수락 전, 1=퀘스트 수락 후 완료 불가능, 2=퀘스트 수락 후 완료 가능, 3=퀘스트 완료 후
 
     public Text showTalk;
@@ -111,7 +111,7 @@ public class NPCTalking : MonoBehaviour
             index = 0;
             textNum = 0;
 
-            Invoke("Talking", 0.1f);
+            Invoke("Talking", talkingSpeed);
         }
     }
 
@@ -127,7 +127,7 @@ public class NPCTalking : MonoBehaviour
         {
             showTalk.text += talkText[textNum][index];
             index++;
-            Invoke("Talking", 0.1f);
+            Invoke("Talking", talkingSpeed);
         }
         else
         {
@@ -151,7 +151,7 @@ public class NPCTalking : MonoBehaviour
                 textNum++;
                 index = 0;
                 doTalking = true;
-                Invoke("Talking", 0.1f);
+                Invoke("Talking", talkingSpeed);
             }
         }
         else if (questState == 2)
@@ -170,7 +170,7 @@ public class NPCTalking : MonoBehaviour
                 textNum++;
                 index = 0;
                 doTalking = true;
-                Invoke("Talking", 0.1f);
+                Invoke("Talking", talkingSpeed);
             }
         }
         else

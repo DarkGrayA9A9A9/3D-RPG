@@ -11,7 +11,7 @@ public class GetItem : MonoBehaviour
     void Awake()
     {
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        _soundEffect = GameObject.Find("SoundEffect").GetComponent<SoundEffect>();
+        _soundEffect = GameObject.Find("ItemSound").GetComponent<SoundEffect>();
     }
 
     void Update()
